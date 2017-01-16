@@ -1,7 +1,7 @@
 Example Ansible Project
 =======================
 
-An example ansible project organized by splitting up servers by environment and role. Different environments are each separated into their own inventory files.  (dev vs prod) and server types are differentiated by inventory groups and roles. Assumes RHEL based servers using yum. You can spin up a set of Centos 7 servers using vagrant up, then make add them to your ssh config using 
+An example ansible project organized by splitting up servers by environment and role. Different environments are each separated into their own inventory files.  (dev vs prod) and server types are differentiated by inventory groups and roles. Assumes RHEL based servers using yum. You can spin up a set of Centos 7 servers using vagrant up, then add them to your ssh config using 
 
 ```
 vagrant ssh-config >> $HOME/.ssh/config
